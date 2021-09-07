@@ -555,3 +555,231 @@ java.lang.UnsupportedOperationException: No language server has registered to ha
 
 !ENTRY Activator 1 0 2021-09-07 14:29:53.431
 !MESSAGE Has main method computation for project 'Eureka-Server'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:27.832
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aXoFKxbb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:27.833
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.aXoFKxbb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:27.834
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:27.835
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aXoFKxbb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:29.163
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:29.164
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2992d955[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=989)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:29.165
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.074
+!MESSAGE Boot LS startup time from start to initialized: 1908ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.125
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iDfNtuBjisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.126
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.126
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.127
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.127
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.127
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iDfNtuBj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.128
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.128
+!MESSAGE buffering callback sts4.classpath.iDfNtuBj Eureka-Server false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.129
+!MESSAGE executing callback sts4.classpath.iDfNtuBj 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.270
+!MESSAGE executing callback sts4.classpath.iDfNtuBj SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:34.578
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iDfNtuBj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:34.579
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.iDfNtuBj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:34.580
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:34.581
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iDfNtuBj => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-09-07 14:47:45.019
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:51:29.608
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:51:29.609
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:51:29.609
+!MESSAGE buffering callback sts4.classpath.YDZvdTKp Eureka-Server2 false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:51:29.609
+!MESSAGE executing callback sts4.classpath.YDZvdTKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:51:29.618
+!MESSAGE executing callback sts4.classpath.YDZvdTKp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:51:45.214
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:51:45.214
+!MESSAGE buffering callback sts4.classpath.YDZvdTKp Eureka-Server true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:51:45.214
+!MESSAGE executing callback sts4.classpath.YDZvdTKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:51:45.217
+!MESSAGE executing callback sts4.classpath.YDZvdTKp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:30.462
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:30.464
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:30.465
+!MESSAGE buffering callback sts4.classpath.YDZvdTKp EurekaServer false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:30.465
+!MESSAGE executing callback sts4.classpath.YDZvdTKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:30.550
+!MESSAGE executing callback sts4.classpath.YDZvdTKp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:30.697
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:30.698
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:30.699
+!MESSAGE buffering callback sts4.classpath.YDZvdTKp EurekaServer false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:30.699
+!MESSAGE executing callback sts4.classpath.YDZvdTKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:30.707
+!MESSAGE executing callback sts4.classpath.YDZvdTKp SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-07 14:52:32.464
+!MESSAGE Has main method computation for project 'EurekaServer'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:32.465
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:32.475
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:32.483
+!MESSAGE buffering callback sts4.classpath.YDZvdTKp EurekaServer false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:32.484
+!MESSAGE executing callback sts4.classpath.YDZvdTKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:52:32.876
+!MESSAGE executing callback sts4.classpath.YDZvdTKp SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-07 14:52:35.461
+!MESSAGE Has main method computation for project 'EurekaServer'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:54:39.545
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-09-07 14:54:39.546
+!MESSAGE Has main method computation for project 'EurekaServer'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:54:39.546
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:54:39.547
+!MESSAGE buffering callback sts4.classpath.YDZvdTKp EurekaServerNotGit false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:54:39.547
+!MESSAGE executing callback sts4.classpath.YDZvdTKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:54:39.559
+!MESSAGE executing callback sts4.classpath.YDZvdTKp SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-07 14:54:40.163
+!MESSAGE Has main method computation for project 'EurekaServer'
+
+!ENTRY Activator 1 0 2021-09-07 14:54:40.691
+!MESSAGE Has main method computation for project 'EurekaServer'
+
+!ENTRY Activator 1 0 2021-09-07 14:54:40.691
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:54:40.691
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:54:40.698
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:54:40.702
+!MESSAGE buffering callback sts4.classpath.YDZvdTKp EurekaServerNotGit false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:54:40.703
+!MESSAGE executing callback sts4.classpath.YDZvdTKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:54:40.725
+!MESSAGE executing callback sts4.classpath.YDZvdTKp SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-07 14:54:44.793
+!MESSAGE Has main method computation for project 'EurekaServer'
+
+!ENTRY Activator 1 0 2021-09-07 14:54:44.796
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:55:49.140
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:55:49.141
+!MESSAGE buffering callback sts4.classpath.YDZvdTKp Eureka-Server2 true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:55:49.141
+!MESSAGE executing callback sts4.classpath.YDZvdTKp 1 batched events
+
+!ENTRY Activator 1 0 2021-09-07 14:55:49.142
+!MESSAGE Has main method computation for project 'EurekaServer'
+
+!ENTRY Activator 1 0 2021-09-07 14:55:49.142
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:55:49.144
+!MESSAGE executing callback sts4.classpath.YDZvdTKp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:55:53.526
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY Activator 1 0 2021-09-07 14:55:53.526
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:55:53.527
+!MESSAGE buffering callback sts4.classpath.YDZvdTKp EurekaServer true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:55:53.527
+!MESSAGE executing callback sts4.classpath.YDZvdTKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:55:53.529
+!MESSAGE executing callback sts4.classpath.YDZvdTKp SUCCESS [done]
