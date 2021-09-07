@@ -555,3 +555,69 @@ java.lang.UnsupportedOperationException: No language server has registered to ha
 
 !ENTRY Activator 1 0 2021-09-07 14:29:53.431
 !MESSAGE Has main method computation for project 'Eureka-Server'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:27.832
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aXoFKxbb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:27.833
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.aXoFKxbb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:27.834
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:27.835
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aXoFKxbb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:29.163
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:29.164
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2992d955[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=989)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:29.165
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.074
+!MESSAGE Boot LS startup time from start to initialized: 1908ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.125
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iDfNtuBjisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.126
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.126
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.127
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.127
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.127
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iDfNtuBj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.128
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.128
+!MESSAGE buffering callback sts4.classpath.iDfNtuBj Eureka-Server false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.129
+!MESSAGE executing callback sts4.classpath.iDfNtuBj 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:31.270
+!MESSAGE executing callback sts4.classpath.iDfNtuBj SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:34.578
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iDfNtuBj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:34.579
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.iDfNtuBj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:34.580
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 14:40:34.581
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iDfNtuBj => OK
