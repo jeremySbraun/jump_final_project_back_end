@@ -14096,3 +14096,51 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-09-11 14:04:42.718
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 14:04:42.719
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 14:04:42.719
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 14:04:42.720
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 14:04:43.101
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 14:04:43.101
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 14:04:43.101
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 14:04:43.102
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 14:26:51.430
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 14:26:51.430
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 14:26:51.431
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 14:26:51.431
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 14:26:51.972
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 14:26:51.972
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 14:26:51.981
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 14:26:52.014
+!MESSAGE Has main method computation for project 'Gateway-Server'

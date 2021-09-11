@@ -17,7 +17,7 @@ import com.cognixia.jump.springcloud.model.Review;
 
 
 @Service
-@FeignClient(name = "restaurant-service")
+@FeignClient(name = "ec2-44-193-200-36.compute-1.amazonaws.com")
 public interface RestaurantReviewService {
 
 	
