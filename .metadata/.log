@@ -14096,3 +14096,633 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-09-11 16:32:21.889
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:32:24.249
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:32:24.250
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:32:24.250
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-09-11 16:32:30.440
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.13.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.13.Final
+
+!ENTRY Activator 1 0 2021-09-11 16:32:34.618
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:32:34.656
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:32:34.656
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:32:34.657
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:19.993
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:19.994
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@24c00206[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=989)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:19.996
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:20.020
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.383
+!MESSAGE Boot LS startup time from start to initialized: 2379ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.455
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xWeitMStisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.457
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.459
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.459
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.460
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.460
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xWeitMSt => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.473
+!MESSAGE classpath=172 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.482
+!MESSAGE buffering callback sts4.classpath.xWeitMSt UserService false 172
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.483
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.492
+!MESSAGE classpath=134 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.500
+!MESSAGE buffering callback sts4.classpath.xWeitMSt EurekaServerNotGit false 134
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.501
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.508
+!MESSAGE classpath=131 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.515
+!MESSAGE buffering callback sts4.classpath.xWeitMSt Gateway-Server false 131
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.515
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.523
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.530
+!MESSAGE buffering callback sts4.classpath.xWeitMSt restaurant false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:22.531
+!MESSAGE executing callback sts4.classpath.xWeitMSt 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:23.276
+!MESSAGE executing callback sts4.classpath.xWeitMSt SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-09-11 16:37:28.556
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-09-11 16:37:29.850
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.13.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.13.Final
+
+!ENTRY Activator 1 0 2021-09-11 16:37:44.282
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:37:44.283
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:37:44.284
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:37:44.284
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:44.534
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xWeitMSt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:44.535
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.xWeitMSt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:44.536
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:44.536
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xWeitMSt => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:44.554
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:44.555
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@24c00206[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=989)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:44.556
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY Activator 1 0 2021-09-11 16:37:44.862
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:37:44.863
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:37:44.871
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:37:44.899
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.880
+!MESSAGE Boot LS startup time from start to initialized: 2322ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.954
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dSdKRTuzisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.955
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.955
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.956
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.956
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.956
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dSdKRTuz => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.966
+!MESSAGE classpath=172 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.975
+!MESSAGE buffering callback sts4.classpath.dSdKRTuz UserService false 172
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.976
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.985
+!MESSAGE classpath=134 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.991
+!MESSAGE buffering callback sts4.classpath.dSdKRTuz EurekaServerNotGit false 134
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.992
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:46.999
+!MESSAGE classpath=131 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:47.006
+!MESSAGE buffering callback sts4.classpath.dSdKRTuz Gateway-Server false 131
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:47.006
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:47.015
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:47.022
+!MESSAGE buffering callback sts4.classpath.dSdKRTuz restaurant false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:47.023
+!MESSAGE executing callback sts4.classpath.dSdKRTuz 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 16:37:47.859
+!MESSAGE executing callback sts4.classpath.dSdKRTuz SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-11 16:38:04.797
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:04.798
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:04.799
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:04.799
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:04.940
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:04.941
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:04.941
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:04.942
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:29.291
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:29.292
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:29.293
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:29.293
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:29.856
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:29.864
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:29.864
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:38:29.903
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:23.575
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:23.575
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:23.576
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:23.576
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:24.163
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:24.163
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:24.167
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:24.179
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:52.321
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:52.322
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:52.323
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:52.323
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:52.875
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:52.875
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:52.879
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:39:52.888
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:41:02.624
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:41:02.625
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:41:02.625
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:41:02.626
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:41:03.198
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:41:03.235
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:41:03.236
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:41:03.247
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:44:16.894
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:44:16.895
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:44:16.895
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:44:16.896
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:44:17.454
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:44:17.455
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:44:17.475
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:44:17.533
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:49:27.738
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:49:27.738
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:49:27.739
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:49:27.739
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:49:28.304
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:49:28.305
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:49:28.306
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:49:28.317
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:55:54.465
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:55:54.466
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:55:54.466
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:55:54.467
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:55:55.410
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:55:55.411
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:55:55.411
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:55:55.412
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:58:50.240
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:58:50.240
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:58:50.241
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:58:50.241
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:58:50.797
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:58:50.798
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:58:50.801
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:58:50.814
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:59:01.783
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:59:01.784
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:59:01.784
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:59:01.785
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 16:59:02.340
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 16:59:02.341
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 16:59:02.345
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 16:59:02.355
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-09-11 16:59:48.003
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-09-11 17:01:14.508
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:01:14.508
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 17:01:14.509
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:01:14.510
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 17:01:15.076
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:01:15.117
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:01:15.118
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 17:01:15.133
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 17:08:13.248
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:08:13.249
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 17:08:13.249
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 17:08:13.250
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:08:13.809
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:08:13.811
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:08:13.821
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 17:08:13.821
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 17:15:11.032
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:15:11.033
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 17:15:11.033
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:15:11.034
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 17:15:11.641
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:15:11.641
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 17:15:11.642
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:15:11.655
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 17:17:31.373
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:17:31.373
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:17:31.374
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 17:17:31.374
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 17:17:31.971
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:17:31.971
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:17:31.980
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 17:17:31.984
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 17:27:33.807
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 17:27:33.808
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:27:33.808
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:27:33.809
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 17:27:34.373
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:27:34.391
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 17:27:34.401
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:27:34.406
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-09-11 17:31:06.817
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-09-11 17:35:58.481
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:35:58.482
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:35:58.482
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY Activator 1 0 2021-09-11 17:35:58.483
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 17:35:59.058
+!MESSAGE Has main method computation for project 'Gateway-Server'
+
+!ENTRY Activator 1 0 2021-09-11 17:35:59.058
+!MESSAGE Has main method computation for project 'EurekaServerNotGit'
+
+!ENTRY Activator 1 0 2021-09-11 17:35:59.061
+!MESSAGE Has main method computation for project 'restaurant'
+
+!ENTRY Activator 1 0 2021-09-11 17:35:59.073
+!MESSAGE Has main method computation for project 'UserService'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-12 13:57:52.802
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dSdKRTuz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-12 13:57:52.803
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dSdKRTuz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-12 13:57:52.804
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-12 13:57:52.804
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dSdKRTuz => OK
