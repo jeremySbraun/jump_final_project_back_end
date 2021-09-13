@@ -161,6 +161,18 @@ public class UserModel implements Serializable {
 				+ ", email=" + email + ", role=" + role + "]";
 	}
 	
+	public String toJson() {
+		
+		return "{\"id\" : " + id
+				+ ", \"username\" : \"" + username + "\""
+				+ ", \"password\" : \"" + password + "\"" 
+				+ ", \"firstName\" : \"" + firstName + "\"" 
+				+ ", \"email\" : \"" + email + "\"" 
+				+ ", \"role\" : \"" + role + "\"" +
+		"}";
+
+	}
+	
 	
 	
 	
