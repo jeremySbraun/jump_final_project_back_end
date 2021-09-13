@@ -107,5 +107,16 @@ public class Review implements Serializable{
     public void setUserId(Integer userId) {
         this.userId = userId;
     }
+    
+public String toJson() {
+		
+		return "{\"restaurantId\" : " + body
+				+ ", \"name\" : \"" + time + "\""
+				+ ", \"address\" : \"" + date + "\"" 
+				+ ", \"cuisine\" : \"" + rating + "\"" +
+				", \"description\" : \"" + restaurantId + "\"" +
+				", \"reviews\" : \"" + userId + "\"" +
+		"}";
+	}
 
 }

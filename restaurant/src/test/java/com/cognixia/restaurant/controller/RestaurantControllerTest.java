@@ -77,8 +77,10 @@ public class RestaurantControllerTest {
 		List<Restaurant> restaurants = Arrays.asList(
 				new Restaurant());
 		
-		when(serviceRepository.findByName("Test")).thenReturn(restaurants);
 		
+		/*
+		when(serviceRepository.findByName("Test")).thenReturn(restaurants);
+		*/
 		
 		mvc.perform(get(uriString,"Test")).andExpect(content()
 				.contentType(MediaType.APPLICATION_JSON_VALUE))
