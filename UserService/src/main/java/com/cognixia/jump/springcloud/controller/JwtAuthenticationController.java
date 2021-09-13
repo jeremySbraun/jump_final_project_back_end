@@ -40,6 +40,11 @@ public class JwtAuthenticationController {
 	
 	
 
+	//authenticate will allow a user to ensure 
+	// they are registered in the system. If they are not they will be denied access
+	// If they are registered they will be given a JWT to access 
+	// User/Admin Request mapping.
+	
 	@RequestMapping(value = "/authenticate", method = RequestMethod.POST)
 	public ResponseEntity<?> createAuthenticationToken(@RequestBody JwtRequest authenticationRequest) throws Exception {
 		
@@ -69,6 +74,11 @@ public class JwtAuthenticationController {
 			throw new Exception("INVALID_CREDENTIALS", e);
 		}
 	}
+	
+	
+	
+	//Allows us to create a new user; generally. A new user will always be 
+	// Registered as a USER. An admin will have to be updated in the database
 	
 	@RequestMapping(value = "/register", method = RequestMethod.POST)
 	public ResponseEntity<?> saveUser(@RequestBody UserModel user) throws Exception{
