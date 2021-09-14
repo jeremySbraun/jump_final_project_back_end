@@ -28,7 +28,7 @@ public class UserController {
 	@PutMapping(value = "/admin/update")
 	public ResponseEntity<?> updateRestaurant(@RequestBody Restaurant restaurant) {
 		Restaurant savedRestaurant = restrevServ.update(restaurant);
-		return ReponseEntity.ok(savedRestaurant);
+		return ResponseEntity.ok(savedRestaurant);
 		
 	}
 	
@@ -37,7 +37,7 @@ public class UserController {
 	public ResponseEntity<?> writeReview(@RequestBody Review review) {
 		Review newReview = restrevServ.save(review);
 		
-		return ReponseEntity.ok(newReview);
+		return ResponseEntity.ok(newReview);
 		
 	}
 	

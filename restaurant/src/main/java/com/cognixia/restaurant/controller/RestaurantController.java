@@ -30,14 +30,14 @@ public class RestaurantController {
 
     // adds a restaurant
     @PostMapping(value = "/restaurant")
-    public ResponseEntity<?> save(@RequestBody Restaurant restaurant){
+    public ResponseEntity<Restaurant> save(@RequestBody Restaurant restaurant){
         Restaurant newRestaurant = restaurantRepo.save(restaurant);
         return ResponseEntity.ok(newRestaurant);
     }
 
     // returns a list of all restaurants, with their list of reviews
     @GetMapping(value = "/restaurant")
-    public ResponseEntity<?> all() {
+    public ResponseEntity<List<Restaurant>> all() {
         List<Restaurant> restaurants = restaurantRepo.findAll();
         
         for (Restaurant r : restaurants) {
@@ -53,6 +53,17 @@ public class RestaurantController {
         Restaurant foundRestaurant = restaurantRepo.findByRestaurantId(restaurantId);
         foundRestaurant.setReviews(reviewRepo.findAllByRestaurantId(restaurantId));
         return ResponseEntity.ok(foundRestaurant);
+    }
+
+    // returns Restaurant by restaurant name
+    @GetMapping(value = "/restaurant/name/{name}")
+    public ResponseEntity<?> findByRestaurantName(@PathVariable String name){
+        List<Restaurant> foundRestaurants = restaurantRepo.findByName(name);
+        for (Restaurant r : foundRestaurants) {
+            r.setReviews(reviewRepo.findAllByRestaurantId(r.getRestaurantId()));
+        }
+        
+        return ResponseEntity.ok(foundRestaurants);
     }
 
     // updates restaurant
