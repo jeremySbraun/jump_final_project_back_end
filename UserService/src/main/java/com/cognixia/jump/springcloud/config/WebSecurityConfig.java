@@ -31,6 +31,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private JwtRequestFilter jwtRequestFilter;
 
+	//Create a BCrpyt encoder to encode our passwords
 	@Bean
 	public PasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
@@ -41,7 +42,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
 		// configure AuthenticationManager so that it knows from where to load
 		// user for matching credentials
-		// Use BCryptPasswordEncoder
+		// Because the stored usernames are encoded
+		// a password encoder must be used in the authentication manager 
 		auth.userDetailsService(jwtUserDetailsService).passwordEncoder(passwordEncoder());
 	}
 
@@ -60,9 +62,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				// dont authenticate this particular request
 				.authorizeRequests()
 				.antMatchers("/hello").hasRole("USER")
+				
+				// these requests are role specific
+				
 				.antMatchers("/admin/update").hasRole("ADMIN")
 				.antMatchers("/user/update").hasAnyRole("USER", "ADMIN")
+				
+				// Anyone has access to these requests
 				.antMatchers("/authenticate", "/register").permitAll().
+				
 				// all other requests need to be authenticated
 				anyRequest().authenticated().and().
 				// make sure we use stateless session; session won't be used to
