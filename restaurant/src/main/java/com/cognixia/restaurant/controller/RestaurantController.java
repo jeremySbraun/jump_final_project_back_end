@@ -30,9 +30,9 @@ public class RestaurantController {
 
     // adds a restaurant
     @PostMapping(value = "/restaurant")
-    public Restaurant save(@RequestBody Restaurant restaurant){
+    public ResponseEntity<?> save(@RequestBody Restaurant restaurant){
         Restaurant newRestaurant = restaurantRepo.save(restaurant);
-        return newRestaurant;
+        return ResponseEntity.ok(newRestaurant);
     }
 
     // returns a list of all restaurants, with their list of reviews
@@ -49,16 +49,16 @@ public class RestaurantController {
 
     // returns Restaurant by restaurant id
     @GetMapping(value = "/restaurant/{restaurantId}")
-    public Restaurant findByRestaurantId(@PathVariable Integer restaurantId){
+    public ResponseEntity<?> findByRestaurantId(@PathVariable Integer restaurantId){
         Restaurant foundRestaurant = restaurantRepo.findByRestaurantId(restaurantId);
         foundRestaurant.setReviews(reviewRepo.findAllByRestaurantId(restaurantId));
-        return foundRestaurant;
+        return ResponseEntity.ok(foundRestaurant);
     }
 
     // updates restaurant
     @PutMapping(value = "/restaurant")
-    public Restaurant update(@RequestBody Restaurant restaurant){
-        return restaurantRepo.save(restaurant);
+    public ResponseEntity<?> update(@RequestBody Restaurant restaurant){
+        return ResponseEntity.ok(restaurantRepo.save(restaurant));
     }
 
     // deletes restaurant

@@ -1,6 +1,7 @@
 package com.cognixia.jump.springcloud.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -25,18 +26,18 @@ public class UserController {
 	
 	//Allows the admin to update the restaurant information
 	@PutMapping(value = "/admin/update")
-	public Restaurant updateRestaurant(@RequestBody Restaurant restaurant) {
+	public ResponseEntity<?> updateRestaurant(@RequestBody Restaurant restaurant) {
 		Restaurant savedRestaurant = restrevServ.update(restaurant);
-		return savedRestaurant;
+		return ReponseEntity.ok(savedRestaurant);
 		
 	}
 	
 	//Allows the user to create a review or rate a restaurant 
 	@PostMapping(value = "/user/update")
-	public Review writeReview(@RequestBody Review review) {
+	public ResponseEntity<?> writeReview(@RequestBody Review review) {
 		Review newReview = restrevServ.save(review);
 		
-		return newReview;
+		return ReponseEntity.ok(newReview);
 		
 	}
 	

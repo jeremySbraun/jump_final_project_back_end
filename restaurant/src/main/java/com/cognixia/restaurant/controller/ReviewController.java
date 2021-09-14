@@ -27,32 +27,32 @@ public class ReviewController {
     private RestaurantRepository restaurantRepo;
 
     @PostMapping(value = "/restaurant/review")
-    public Review save(@RequestBody Review review){
+    public ResponseEntity<?> save(@RequestBody Review review){
         Review newReview = reviewRepo.save(review);
-        return newReview;
+        return ResponseEntity.ok(newReview);
     }
 
     @GetMapping(value = "/review/{reviewId}")
-    public Review findByReviewId(@PathVariable Integer reviewId){
+    public ResponseEntity<?> findByReviewId(@PathVariable Integer reviewId){
         Review foundReview = reviewRepo.findByReviewId(reviewId);
-        return foundReview;
+        return ResponseEntity.ok(foundReview);
     }
 
     @GetMapping(value = "review/restaurant/{restaurantId}")
-    public Iterable<Review> findByRestaurantId(@PathVariable Integer restaurantId){
+    public ResponseEntity<?> findByRestaurantId(@PathVariable Integer restaurantId){
         List<Review> reviews = reviewRepo.findAllByRestaurantId(restaurantId);
-        return reviews;
+        return ResponseEntity.ok(reviews);
     }
 
     @GetMapping(value = "review/user/{userId}")
-    public Iterable<Review> findByUserId(@PathVariable Integer userId){
+    public ResponseEntity<?> findByUserId(@PathVariable Integer userId){
         List<Review> reviews = reviewRepo.findAllByUserId(userId);
-        return reviews;
+        return ResponseEntity.ok(reviews);
     }
 
     @PutMapping(value = "/review/restaurant")
-    public Review update(@RequestBody Review review){
-        return reviewRepo.save(review);
+    public ResponseEntity<?> update(@RequestBody Review review){
+        return ResponseEntity.ok(reviewRepo.save(review));
     }
 
     @DeleteMapping(value = "/review/{reviewId}")
