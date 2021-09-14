@@ -24,6 +24,8 @@ import com.cognixia.jump.springcloud.model.UserModel;
 import com.cognixia.jump.springcloud.service.UserService;
 
 
+
+//Cross origins allows us to 
 @RestController
 @CrossOrigin
 public class JwtAuthenticationController {
@@ -50,12 +52,10 @@ public class JwtAuthenticationController {
 		
 	authenticate(authenticationRequest.getUsername(), authenticationRequest.getPassword());
 		
-	System.out.println("We made it through!");
 	
 		final UserDetails userDetails = userService
 				.loadUserByUsername(authenticationRequest.getUsername());
 
-		System.out.println("We made it through!");
 		userDetails.getUsername();
 		final String token = jwtTokenUtil.generateToken(userDetails);
 
@@ -66,6 +66,10 @@ public class JwtAuthenticationController {
 
 		try {
 			
+			
+			// the username and password are provided
+			// Will be checked against the JwtUserDetails Service
+			// if the authentication is successful will return true. 
 			authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));
 			return true;
 		} catch (DisabledException e) {
