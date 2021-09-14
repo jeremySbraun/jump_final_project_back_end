@@ -24,12 +24,12 @@ public class JwtTokenUtil implements Serializable {
 	@Value("${jwt.secret}")
 	private String secret;
 
-	//retrieve username from jwt token
+	//grab username from token
 	public String getUsernameFromToken(String token) {
 		return getClaimFromToken(token, Claims::getSubject);
 	}
 
-	//retrieve expiration date from jwt token
+	//check expiration date
 	public Date getExpirationDateFromToken(String token) {
 		return getClaimFromToken(token, Claims::getExpiration);
 	}
@@ -38,18 +38,18 @@ public class JwtTokenUtil implements Serializable {
 		final Claims claims = getAllClaimsFromToken(token);
 		return claimsResolver.apply(claims);
 	}
-    //for retrieveing any information from token we will need the secret key
+    //in order to grab anything from the token we need to use the secret key
 	private Claims getAllClaimsFromToken(String token) {
 		return Jwts.parser().setSigningKey(secret).parseClaimsJws(token).getBody();
 	}
 
-	//check if the token has expired
+	//check to see if token is expired
 	private Boolean isTokenExpired(String token) {
 		final Date expiration = getExpirationDateFromToken(token);
 		return expiration.before(new Date());
 	}
 
-	//generate token for user
+	//generate token 
 	public String generateToken(UserDetails userDetails) {
 		Map<String, Object> claims = new HashMap<>();
 		//return claims.toString() + userDetails.getUsername() + secret;

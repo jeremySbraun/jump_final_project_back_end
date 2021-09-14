@@ -15,6 +15,9 @@ public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint, Se
 
 	private static final long serialVersionUID = -7858869558953243875L;
 
+	
+	// Any request made that is not authenticated 
+	// will always send an 'unauthorized' error code of 401
 	@Override
 	public void commence(HttpServletRequest request, HttpServletResponse response,
 			AuthenticationException authException) throws IOException {
