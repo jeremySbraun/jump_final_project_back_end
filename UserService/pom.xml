@@ -67,15 +67,15 @@
 		
 		<dependency> 
         <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-validator</artifactId>
-        <version>6.0.13.Final</version>
-    </dependency> 
-    <dependency> 
-        <groupId>org.glassfish</groupId>
-        <artifactId>javax.el</artifactId>
-        <version>3.0.0</version>
-     </dependency>
-     <dependency>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.13.Final</version>
+    	</dependency> 
+    	<dependency> 
+			<groupId>org.glassfish</groupId>
+			<artifactId>javax.el</artifactId>
+			<version>3.0.0</version>
+     	</dependency>
+     	<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
@@ -95,10 +95,10 @@
 		</dependency>
 		
 		<dependency>
-    <groupId>com.sun.jersey.contribs</groupId>
-    <artifactId>jersey-apache-client4</artifactId>
-    <version>1.19.4</version>
-</dependency>
+			<groupId>com.sun.jersey.contribs</groupId>
+			<artifactId>jersey-apache-client4</artifactId>
+			<version>1.19.4</version>
+		</dependency>
 		
 	</dependencies>
 

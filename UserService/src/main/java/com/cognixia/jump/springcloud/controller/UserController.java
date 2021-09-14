@@ -1,6 +1,7 @@
 package com.cognixia.jump.springcloud.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -12,6 +13,7 @@ import com.cognixia.jump.springcloud.model.Review;
 import com.cognixia.jump.springcloud.service.RestaurantReviewService;
 import com.fasterxml.jackson.annotation.JacksonInject.Value;
 
+@CrossOrigin
 @RestController
 public class UserController {
 
